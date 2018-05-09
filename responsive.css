@@ -4,11 +4,11 @@
 }
 
 @media screen and  (min-width:800px) {
-	.works-list { 
+	.project { 
 		width: calc((100% - 20px)/ 3);
   		margin-right: 10px;
 	}
-	.works-list:last-of-type {
+	.project:last-of-type {
 	margin-right: 0;
 	}
 	.header, main, content { 
@@ -26,7 +26,7 @@
 	.featured-work { 
 	text-align: center;
 	}
-	.works-list { 
+	.project { 
 	width: 60%;
 	margin-right: 20%;
 	margin-left: 20%;

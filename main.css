@@ -135,7 +135,7 @@ Featured work
     padding: 0;
     margin: 0;
 }
-.works-list { 
+.project { 
 	float: left;
 	margin-bottom: 5%;
 	box-sizing: border-box;
@@ -143,7 +143,7 @@ Featured work
   	text-align: center;
   	line-height: 24px;
 }
-.works-list a { 
+.project a { 
 	text-decoration: none;
 	color:  #272838;
 	transition: all 0.5s;
