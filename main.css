@@ -1,9 +1,14 @@
+:root {
+	--linen-bgcolor: #f9e7e7;
+	--spanish-pink-header-text: #ebbab9;
+	--anti-flash-white-main: #ebf3f7;
+}
 body, html {
 	margin: 0;
 	padding: 0;
 }
 body {
-	background-color: #f9e7e7 ;
+	background-color: var(--linen-bgcolor);
 	font-family: Roboto;
 	font-size: 12px;
 	display: block;
@@ -28,11 +33,11 @@ header, section, div, footer {
 font style 
 common
 */
- .header-joanna-sz, .header-work-title {
+ .header-joanna-sz, .header-text {
  	text-align: right;
  	text-transform: uppercase;
  	letter-spacing: 3px;
- 	color:#ebbab9;
+ 	color: var(--spanish-pink-header-text);
 }
 /*
 *
@@ -87,7 +92,7 @@ main {
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: #ebf3f7;
+	background-color: var(--anti-flash-white-main);
 }
 /*
 content
@@ -191,7 +196,7 @@ footer {
 	width: 100%;
 	padding: 1em;
 	overflow: hidden;
-	background-color: #ebf3f7;
+	background-color: var(--anti-flash-white-main);
 	margin-bottom: 10%;
 }
 footer li {
