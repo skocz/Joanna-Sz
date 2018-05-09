@@ -1,0 +1,189 @@
+body, html {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+body {
+	background-color: #f9e7e7 ;
+	font-family: Roboto;
+	font-size: 12px;
+}
+h1, h2, h3, h4, h5 {
+  margin: 0; 
+}
+
+/*to make the website be fully grid responsive 
+by reseting the box model which by default doesnt include padding 
+and border within declered width and height.  */
+
+header, section, div, footer {
+	box-sizing: border-box;
+}
+* {
+	box-sizing: border-box;
+}
+/*
+font style 
+common
+*/
+ .header-joanna-sz, .header-work-title {
+ 	text-align: right;
+ 	text-transform: uppercase;
+ 	letter-spacing: 3px;
+ 	color:#ebbab9;
+}
+/*
+header 
+*/
+.header { 
+	overflow: hidden;
+	width: 100%;
+	margin: auto;
+	position: relative;
+	top: 0;
+	left: 0;
+	background-color: #381D2A; 
+	box-shadow: 1px 1px 2px #bbb8b2 
+}
+.header-margin { 
+	margin-right: 10px;
+}
+.header-text-box { 
+	float: right;
+	display: inline-block; 
+}
+.header-work-title { 	
+	padding:5px 0 10px 0;
+	margin: 0;
+}
+.header-joanna-sz { 
+	font-size: 34px;
+	padding-bottom: 0;
+	padding-top: 10px;
+	font-weight: 300;
+}
+.header-logo-box { 
+	float: left;
+	vertical-align: top;
+}
+.header-logo {
+	width: 100px;
+	height: 80px;
+	position: absolute;	
+}
+ /*
+ main
+ */
+main {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #ebf3f7;
+	box-shadow: 1px 5px 5px #272838 ;
+}
+/*
+content
+*/
+/*
+Section top-background-image 
+*/
+.top-image {
+	background-image: url(img/pexels-photo-113850.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	width: 100%;
+	min-height: 300px;
+	margin-top: 30px;
+	position: relative;
+}
+.top-image article { 
+	width: 100%;
+	padding: 1.5em;
+	background-color: rgba(0, 0, 0, 0.7); 
+	box-sizing: border-box;
+	color: #a19ea8;
+	bottom: 0;
+	position: absolute;
+	text-align: center;
+	text-transform: uppercase;
+}
+/*
+Featured work 
+*/
+.featured-work { 
+	clear:both;
+	/*flex-grow: 1;*/
+	padding: 1em;
+}
+.featured-work-name {
+	color: #272838;
+	font-size: 2rem;
+	font-weight: 200;
+	letter-spacing: 3px;
+	width: 100%;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+.portfolio-img {
+	width: 100%;
+	height: auto; 
+}		
+.list { 
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.works-list { 
+	float: left;
+	margin-bottom: 5%;
+	box-sizing: border-box;
+  	display: inline-block;
+  	text-align: center;
+  	line-height: 24px;
+}
+.works-list a { 
+	text-decoration: none;
+	color:  #272838;
+	transition: all 0.5s;
+}
+ a:hover {
+ 	color: #787358;
+}
+.project-title { 
+	text-transform: uppercase;
+}
+/*
+Footer
+*/
+footer {
+  border-top: 1px solid #bbb8b2 ;
+  width: 100%;
+  padding: 1em;
+  overflow: hidden;
+}
+footer li {
+  display: inline-block;
+  margin: 0 1em;
+}
+footer a {
+  text-decoration: none;
+  color: #272838;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+#contact {
+	font-weight: 600;
+	letter-spacing: 1px;
+	font-size: 16px;
+}
+.footer-left { 
+	float: left;
+}
+.footer-right {
+	float: right;
+}
