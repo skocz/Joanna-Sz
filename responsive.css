@@ -3,30 +3,40 @@
 	flex-wrap: wrap; 
 }
 
-@media screen and  (min-width:800px) {
+@media screen and (min-width:1200px) {
+	.header, main, .content, footer { 
+		width: 950px;
+		margin-right: auto;
+		margin-left: auto; 
+	}
+	.top-image {
+		min-height: 200px;
+	}
+}
+
+@media screen and (min-width:800px) {
 	.project { 
 		width: calc((100% - 20px)/ 3);
   		margin-right: 10px;
 	}
 	.project:last-of-type {
-	margin-right: 0;
+		margin-right: 0;
 	}
 	.header, main, .content, footer { 
-	width: 800px;
-	margin-right: auto;
-	margin-left: auto; 
+		width: 800px;
+		margin-right: auto;
+		margin-left: auto; 
 	}
 }
 
-
 @media screen and (max-width: 799px) {
 	.featured-work { 
-	text-align: center;
+		text-align: center;
 	}
 	.project { 
-	width: 60%;
-	margin-right: 20%;
-	margin-left: 20%;
+		width: 60%;
+		margin-right: 20%;
+		margin-left: 20%;
 	}
 }
  
