@@ -128,6 +128,8 @@ Featured work
 }
 .portfolio-img {
 	width: 100%;
+	height: 100%;
+	object-fit: cover;
 	height: auto; 
 }		
 .list { 
@@ -142,6 +144,7 @@ Featured work
   	display: inline-block;
   	text-align: center;
   	line-height: 24px;
+  	height: 230px;
 }
 .works-list a { 
 	text-decoration: none;
