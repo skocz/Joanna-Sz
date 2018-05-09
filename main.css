@@ -71,6 +71,14 @@ header
 	width: 100px;
 	height: 83px;
 }
+/*
+*
+content
+*
+*/
+.content {
+	box-shadow: 1px 5px 5px #272838;
+}
  /*
  main
  */
@@ -79,7 +87,6 @@ main {
 	margin-left: auto;
 	margin-right: auto;
 	background-color: #ebf3f7;
-	box-shadow: 1px 5px 5px #272838 ;
 }
 /*
 content
