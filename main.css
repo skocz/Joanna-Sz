@@ -165,23 +165,25 @@ Featured work
 Footer
 */
 footer {
-  border-top: 1px solid #bbb8b2 ;
-  width: 100%;
-  padding: 1em;
-  overflow: hidden;
+  	border-top: 1px solid #bbb8b2 ;
+	width: 100%;
+	padding: 1em;
+	overflow: hidden;
+	background-color: #ebf3f7;
+	margin-bottom: 10%;
 }
 footer li {
-  display: inline-block;
-  margin: 0 1em;
+	display: inline-block;
+	margin: 0 1em;
 }
 footer a {
-  text-decoration: none;
-  color: #272838;
+	text-decoration: none;
+	color: #272838;
 }
 ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+	list-style: none;
+	padding: 0;
+	margin: 0;
 }
 #contact {
 	font-weight: 600;
