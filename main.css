@@ -135,7 +135,9 @@ Featured work
 }
 .portfolio-img {
 	width: 100%;
-	height: auto; 
+	height: 100%;
+	object-fit: cover;
+	border: 1px solid lightgray; 
 }		
 .list { 
     list-style: none;
@@ -144,14 +146,18 @@ Featured work
 }
 .project { 
 	float: left;
-	margin-bottom: 5%;
+	margin-bottom: 33%;
 	box-sizing: border-box;
   	display: inline-block;
   	text-align: center;
   	line-height: 24px;
+  	height: 255px;
 }
-.project a { 
+
+}
+.project > a { 
 	text-decoration: none;
+	display: block;
 	color:  #272838;
 	transition: all 0.5s;
 }
@@ -160,6 +166,22 @@ Featured work
 }
 .project-title { 
 	text-transform: uppercase;
+}
+
+.program-languages {
+	display: block;
+}
+
+#html {
+	color: blue;
+}
+
+#css {
+	color:orange;
+}
+
+#javascript{
+	color:red;
 }
 /*
 Footer
