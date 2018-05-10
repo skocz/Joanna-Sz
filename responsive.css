@@ -19,6 +19,12 @@
 	footer {
 		margin-bottom: 10%;
 	}
+	#mobileBtn{
+		display: none;
+	}
+	.go-to-top-Btn{
+		display: none;
+	}
 }
 
 @media screen and (min-width:800px) and (max-width: 1199px) {
@@ -30,6 +36,9 @@
 	footer {
 		margin-bottom: 10%;
 	}
+	#mobileBtn{
+		display: none;
+	}
 }
 
 @media screen and (max-width: 799px) {
@@ -38,6 +47,9 @@
 	}
 	.featured-work {
 		justify-content: center;
+	}
+	.go-to-top-Btn{
+		display: none;
 	}
 
 }
