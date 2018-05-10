@@ -197,7 +197,7 @@ footer {
 	padding: 1em;
 	overflow: hidden;
 	background-color: var(--anti-flash-white-main);
-	margin-bottom: 10%;
+	margin-bottom: 0;
 }
 footer li {
 	display: inline-block;

@@ -27,6 +27,9 @@
 		margin-right: auto;
 		margin-left: auto; 
 	}
+	footer {
+		margin-bottom: 10%;
+	}
 }
 
 @media screen and (max-width: 799px) {
