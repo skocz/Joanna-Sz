@@ -4,9 +4,9 @@ window.onscroll = function() {scrollFunction();};
 
 function scrollFunction() {
     if (document.body.scrollTop > 655 || document.documentElement.scrollTop > 655) {
-        document.getElementById("myBtn").style.display = "block";
+        document.getElementById("mobileBtn").style.display = "block";
     } else {
-        document.getElementById("myBtn").style.display = "none";
+        document.getElementById("mobileBtn").style.display = "none";
     }
 }
 

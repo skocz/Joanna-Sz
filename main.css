@@ -44,7 +44,7 @@ common
 button-go-to-the-top
 *
 */
-#myBtn {
+#mobileBtn {
   display: none;
   position: fixed;
   top: 20px;
@@ -60,7 +60,7 @@ button-go-to-the-top
   border-radius: 50%;
 }
 
-#myBtn:hover {
+#mobileBtn:hover {
   background-color: #555;
 }
 /*
