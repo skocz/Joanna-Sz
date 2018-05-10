@@ -3,15 +3,17 @@
 window.onscroll = function() {scrollFunction();};
 
 function scrollFunction() {
-    if (document.body.scrollTop > 655 || document.documentElement.scrollTop > 655) {
+    if ((document.body.scrollTop > 655 && screen.width < 500)|| (document.documentElement.scrollTop > 655 && screen.width < 500)){
         document.getElementById("mobileBtn").style.display = "block";
     } else {
         document.getElementById("mobileBtn").style.display = "none";
     }
 }
 
+
+
 // When the user clicks on the button, scroll to the top of the document
 function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
-}
+}    

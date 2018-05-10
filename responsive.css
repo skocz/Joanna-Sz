@@ -36,7 +36,7 @@
 	footer {
 		margin-bottom: 10%;
 	}
-	#mobileBtn{
+	#mobileBtn {
 		display: none;
 	}
 }
@@ -59,7 +59,7 @@
 		margin-bottom: 20%;
 }
 
-@media screen and (min-width: 300px) and (max-width: 329px) {
+@media screen and (max-width: 329px) {
 	.header-joanna-sz {
     	font-size: 23px;
 	}
