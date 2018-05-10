@@ -36,9 +36,9 @@
 	footer {
 		margin-bottom: 10%;
 	}
-	#mobileBtn {
+/*	#mobileBtn {
 		display: none;
-	}
+	}*/
 }
 
 @media screen and (max-width: 799px) {
@@ -48,15 +48,23 @@
 	.featured-work {
 		justify-content: center;
 	}
-	.go-to-top-Btn{
+/*	.go-to-top-Btn{
 		display: none;
-	}
-
+	}*/
 }
 
 @media screen and (min-width: 530px) {
 	.project {
 		margin-bottom: 20%;
+}
+
+@media screen and (max-width: 401px) {
+	.go-to-top-Btn {
+    	margin-top: -40px;
+    }
+    #page-Btn {
+    	font-size: 14px;
+	}
 }
 
 @media screen and (max-width: 329px) {

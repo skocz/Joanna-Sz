@@ -44,7 +44,7 @@ common
 button-go-to-the-top
 *
 */
-#mobileBtn {
+/*#mobileBtn {
 	display: none;
 	position: fixed;
 	top: 20px;
@@ -58,11 +58,11 @@ button-go-to-the-top
 	cursor: pointer;
 	padding: 15px;
 	border-radius: 50%;
-}
+}*/
 
-#mobileBtn:hover {
+/*#mobileBtn:hover {
 	background-color: #555;
-}
+}*/
 .go-to-top-Btn{
 	display: block;
     margin-top: -51px;
