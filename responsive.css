@@ -53,18 +53,6 @@
 	.featured-work { padding-bottom: 34px; }
 }
 
-@media screen and (max-width:400px) {
-	.header-joanna-sz { font-size: 23px; }
-
-	.header-work-title { font-size: 11px; }
-
-	.header-text { letter-spacing: 0; }
-
-	.project { margin-bottom: 40%; }
-
-	.featured-work{ padding-bottom: 30px;}
-}
-
 
 
 
