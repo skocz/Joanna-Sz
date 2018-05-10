@@ -139,6 +139,7 @@ Featured work
 }
 .portfolio-img {
 	width: 100%;
+	max-width: 250px;
 	height: 100%;
 	object-fit: cover;
 	border: 1px solid lightgray; 
@@ -151,6 +152,7 @@ Featured work
   	text-align: center;
   	line-height: 24px;
   	height: 255px;
+  	padding: 4px;
 }
 
 }
