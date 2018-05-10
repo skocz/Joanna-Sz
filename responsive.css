@@ -14,6 +14,8 @@
 
 	.portfolio-img{ max-width: 234px; }
 
+	.header-joanna-sz { font-size: 34px; }
+
 	footer { margin-bottom: 10%; }
 
 	#mobileBtn{ display: none; }
@@ -27,6 +29,8 @@
 		margin-right: auto;
 		margin-left: auto; 
 	}
+	.header-joanna-sz { font-size: 32px; }
+
 	footer { margin-bottom: 10%; }
 /*	#mobileBtn {
 		display: none;
@@ -40,17 +44,6 @@
 /*	.go-to-top-Btn{
 		display: none;
 	}*/
-}
-
-@media screen and (min-width:530px) {
-	.project { margin-bottom: 20%; }
-
-@media screen and (max-width:401px) {
-	.go-to-top-Btn { margin-top: -40px; }
-
-    #page-Btn { font-size: 14px; }
-
-	.featured-work { padding-bottom: 34px; }
 }
 
 
