@@ -12,9 +12,19 @@
 	.top-image {
 		min-height: 200px;
 	}
+	.project { 
+		width: calc((100% - 20px)/ 3);
+  		margin-right: 10px;
+	}
+	.project:last-of-type {
+		margin-right: 0;
+	}
+	footer {
+		margin-bottom: 10%;
+	}
 }
 
-@media screen and (min-width:800px) {
+@media screen and (min-width:800px) and (max-width: 1199px) {
 	.project { 
 		width: calc((100% - 20px)/ 3);
   		margin-right: 10px;

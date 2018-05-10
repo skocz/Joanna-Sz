@@ -135,8 +135,7 @@ Featured work
 	font-weight: 200;
 	letter-spacing: 3px;
 	width: 100%;
-	padding-top: 1em;
-	padding-bottom: 1em;
+	padding: 1em 0 1em 18px;
 }
 .portfolio-img {
 	width: 100%;
@@ -144,11 +143,6 @@ Featured work
 	object-fit: cover;
 	border: 1px solid lightgray; 
 }		
-.list { 
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
 .project { 
 	float: left;
 	margin-bottom: 33%;
