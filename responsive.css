@@ -13,6 +13,9 @@
 	.top-image {
 		min-height: 200px;
 	}
+	.portfolio-img{
+		max-width: 234px;
+	}
 	footer {
 		margin-bottom: 10%;
 	}
