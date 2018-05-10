@@ -53,8 +53,29 @@
 	}
 
 }
- 
+
 @media screen and (min-width: 530px) {
 	.project {
 		margin-bottom: 17%;
+}
+
+@media screen and (min-width: 300px) and (max-width: 329px) {
+	.header-joanna-sz {
+    	font-size: 23px;
 	}
+	.header-work-title {
+		font-size: 11px;
+	}
+	.header-text{
+		letter-spacing: 0;
+	}
+	.project {
+		margin-bottom: 40%;
+	}
+}
+
+
+
+
+
+
