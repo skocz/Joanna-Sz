@@ -166,7 +166,6 @@ Featured work
 }		
 .project { 
 	float: left;
-  	display: inline-block;
   	text-align: center;
   	line-height: 18px;
   	height: 350px;

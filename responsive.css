@@ -1,14 +1,14 @@
 .featured-work {
 	display: flex;
 	flex-wrap: wrap;
-	width: 100%
+	width: 100%;
+	justify-content: space-around;
 }
 
 @media screen and (min-width:1200px) {
-	.header, main, .content, footer { 
-		width: 1000px;
-		margin-right: auto;
-		margin-left: auto; 
+	.header, .content { 
+		width: 80%;
+		margin: 0 auto;
 	}
 	.top-image { min-height: 200px; }
 
@@ -23,11 +23,17 @@
 	.go-to-top-Btn{ display: none; }
 }
 
+@media screen and (min-width: 801px) and (max-width: 1235px){
+	.project:last-of-type {
+    margin-right: auto;
+	}
+}
+
+
 @media screen and (min-width:800px) and (max-width: 1199px) {
-	.header, main, .content, footer { 
+	.header, .content { 
 		width: 800px;
-		margin-right: auto;
-		margin-left: auto; 
+		margin: 0 auto;
 	}
 	.header-joanna-sz { font-size: 32px; }
 
