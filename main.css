@@ -1,7 +1,7 @@
 :root {
 	--linen-bgcolor: #f9e7e7;
 	--spanish-pink-header-text: #ebbab9;
-	--anti-flash-white-main: #ebf3f7;
+	--background-color-white: #EFEFEF;
 }
 body, html {
 	margin: 0;
@@ -113,7 +113,7 @@ main {
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: var(--anti-flash-white-main);
+	background-color: var(--background-color-white);
 }
 /*
 content
@@ -201,7 +201,7 @@ footer {
 	/*padding: 1em;*/
 	padding: 10px 12px 15px 12px;
 	overflow: hidden;
-	background-color: var(--anti-flash-white-main);
+	background-color: var(--background-color-white);
 	margin-bottom: 0;
 	display: flex;
 	flex-direction: row;
