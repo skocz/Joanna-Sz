@@ -2,13 +2,22 @@
 	--linen-bgcolor: #f9e7e7;
 	--spanish-pink-header-text: #ebbab9;
 	--background-color-white: #EFEFEF;
+	--black: #050404;
+	--dark-purple: #381D2A;
+	--turkus:#0F4C5C;
 }
 body, html {
 	margin: 0;
 	padding: 0;
 }
 body {
-	background-color: var(--linen-bgcolor);
+	background-image: 
+		-webkit-linear-gradient(#381D2A 3%, #0F4C5C 15%, #EAEAEA 82%);
+		background-image: 
+		-o-linear-gradient(#381D2A 3%, #0F4C5C 15%, #EAEAEA 82%);
+		background-image: 
+		linear-gradient(#381D2A 3%, #0F4C5C 15%, #EAEAEA 82%);
+
 	font-family: Roboto;
 	font-size: 16px;
 	display: block;
@@ -122,15 +131,17 @@ content
 Section top-background-image 
 */
 .top-image {
-	background-image: url(img/wolfgang-hasselmann-1145145-unsplash.jpg);
-	background-size: cover;
+	background-image: url(img/vitor-lopes-1155396-unsplash.jpg);
+/*	background-size: cover;*/
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	width: 100%;
-	min-height: 250px;
+	min-height: 400px;
 	margin-top: 30px;
 	position: relative;
 }
+
+
 .top-image article { 
 	width: 100%;
 	padding: 1.5em;
