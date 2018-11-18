@@ -38,6 +38,9 @@ header, section, div, footer {
 * {
 	box-sizing: border-box;
 }
+header {
+	margin-bottom: 30px;
+}
 /*
 font style 
 common
@@ -83,7 +86,8 @@ header
 	height: 83px;
 	margin: auto;
 	background-color: #170F11; 
-	box-shadow: 1px 1px 2px #bbb8b2 
+/*	box-shadow: 1px 1px 2px #bbb8b2;*/
+	box-shadow: 1px 1px 2px #272838;
 }
 .header-text-box { 
 	float: right;
@@ -98,6 +102,7 @@ header
 }
 .header-joanna-sz { 
 	font-size: 23px;
+	margin-top: 10px;
 	padding-bottom: 0;
 	padding-top: 10px;
 	font-weight: 300;
@@ -115,7 +120,9 @@ header
 content
 *
 */
-.content { box-shadow: 1px 5px 5px #272838; }
+.content { 
+	box-shadow: 1px 5px 5px #272838;
+	margin-top: 30px; }
  /*
  main
  */
@@ -134,8 +141,10 @@ Section top-background-image
 
 .banner { 
     width: 100%;
-    margin-top: 30px;
     position: relative;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .top-image {
 	background-image: url(img/kate-trysh-486230-unsplash.jpg);
