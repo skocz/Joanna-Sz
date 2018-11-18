@@ -12,11 +12,11 @@ body, html {
 }
 body {
 	background-image: 
-		-webkit-linear-gradient(#381D2A 3%, #0F4C5C 15%, #EAEAEA 82%);
-		background-image: 
+		-webkit-linear-gradient(#050404, #19385E 5%, #0F4C5C 8%,#5F9DB6 25%, #EAEAEA 60%);
+/*		background-image: 
 		-o-linear-gradient(#381D2A 3%, #0F4C5C 15%, #EAEAEA 82%);
 		background-image: 
-		linear-gradient(#381D2A 3%, #0F4C5C 15%, #EAEAEA 82%);
+		linear-gradient(#381D2A 3%, #0F4C5C 15%, #EAEAEA 82%);*/
 
 	font-family: Roboto;
 	font-size: 16px;
@@ -130,15 +130,18 @@ content
 /*
 Section top-background-image 
 */
+
+.banner { 
+    width: 100%;
+    margin-top: 30px;
+    position: relative;
+}
 .top-image {
-	background-image: url(img/vitor-lopes-1155396-unsplash.jpg);
-/*	background-size: cover;*/
+	background-image: url(img/pawel-czerwinski-760968-unsplash_smaller.jpg);
+	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
-	width: 100%;
 	min-height: 400px;
-	margin-top: 30px;
-	position: relative;
 }
 
 
