@@ -5,6 +5,7 @@
 	--black: #050404;
 	--dark-purple: #381D2A;
 	--turkus:#0F4C5C;
+	--pink: #ED217C;
 }
 body, html {
 	margin: 0;
@@ -12,11 +13,11 @@ body, html {
 }
 body {
 	background-image: 
-		-webkit-linear-gradient(#050404, #19385E 5%, #0F4C5C 8%,#5F9DB6 25%, #EAEAEA 60%);
-/*		background-image: 
-		-o-linear-gradient(#381D2A 3%, #0F4C5C 15%, #EAEAEA 82%);
+		-webkit-linear-gradient(#ED217C 30%, #19385E 50%, #5F9DB6 80%, #EAEAEA);
 		background-image: 
-		linear-gradient(#381D2A 3%, #0F4C5C 15%, #EAEAEA 82%);*/
+		-o-linear-gradient(#ED217C 30%, #19385E 50%, #5F9DB6 80%, #EAEAEA);
+		background-image: 
+		linear-gradient(#ED217C 30%, #19385E 50%, #5F9DB6 80%, #EAEAEA);
 
 	font-family: Roboto;
 	font-size: 16px;
@@ -45,7 +46,7 @@ common
  	text-align: right;
  	text-transform: uppercase;
  	letter-spacing: 0;
- 	color: var(--spanish-pink-header-text);
+ 	color: #FBFCFF;
 }
 /*
 *
@@ -81,7 +82,7 @@ header
 	width: 100%;
 	height: 83px;
 	margin: auto;
-	background-color: #381D2A; 
+	background-color: #170F11; 
 	box-shadow: 1px 1px 2px #bbb8b2 
 }
 .header-text-box { 
@@ -137,7 +138,7 @@ Section top-background-image
     position: relative;
 }
 .top-image {
-	background-image: url(img/pawel-czerwinski-760968-unsplash_smaller.jpg);
+	background-image: url(img/kate-trysh-486230-unsplash.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -148,9 +149,11 @@ Section top-background-image
 .top-image article { 
 	width: 100%;
 	padding: 1.5em;
-	background-color: rgba(0, 0, 0, 0.7); 
+	background-color: rgba(23,15,17);
+/*	rgba(0, 0, 0, 0.7); */
 	box-sizing: border-box;
-	color: #a19ea8;
+	color: #FBFCFF;
+	/*#a19ea8;*/
 	bottom: 0;
 	position: absolute;
 	text-align: center;
