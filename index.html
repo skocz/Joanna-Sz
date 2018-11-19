@@ -10,8 +10,8 @@
     <title>Joanna Sz's Portfolio</title>
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="responsive.css">
-
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+    <script src="mobile-nav.js" type="text/javascript"></script>
 </head>
 
 <body>
@@ -21,15 +21,20 @@
 <!--             <div class="header-logo-box">
                 <img class="header-logo" src="img/JSz-logo-web.png" alt="Joanna Sz's logo">
             </div> -->
-            <div class="core-nav">
-                <div>
+             <a id="menu" class="header__menu">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path d="M2 6h20v3H2zm0 5h20v3H2zm0 5h20v3H2z"/>
+                </svg>
+            </a>
+
+            <nav class="core-nav nav" id="drawer">
                 <ul class="core-nav-items">
                     <li class="core-nav-item"><a href="#">HOME</a></li>
                     <li class="core-nav-item"><a href="#featured-work-name">WORK</a></li>
                     <li class="core-nav-item"><a href="#">ABOUT</a></li>
                 </ul>
-                </div>
-            </div>
+            </nav>
+
             <div class="header-text-box">
                 <div class="header-text">
                     <h1 class="header-joanna-sz">Joanna SZ</h1>
@@ -98,9 +103,21 @@
         </footer>
     </div>
 
-<!-- <button onclick="topFunction()" id="mobileBtn" title="Go to top">Top</button> -->
-
 </body>
+<!-- <button onclick="topFunction()" id="mobileBtn" title="Go to top">Top</button> -->
+<!--     <script>
+      /*
+       * Open the drawer when the menu ison is clicked.
+       */
+    function openNav() {
+        let menu_clicker = document.getElementsByClassName("nav").classList;
+        menu_clicker.add("open");
+    }
+    function close() {
+        document.getElementById("drawer").classList.remove("open");
+    }
+
+    </script> -->
 <script src="go-to-top-btn.js"></script>
 
 </html>

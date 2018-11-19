@@ -5,11 +5,19 @@
 	justify-content: space-around;
 }
 
+.header__menu {
+  display: none;
+}
+
 @media screen and (min-width:1200px) {
 	.header, .content { 
 		width: 80%;
 		margin: 0 auto;
 	}
+	.banner { 
+		width: 80%;
+		margin-bottom: 30px; }
+
 	.top-image { min-height: 500px; }
 
 	.portfolio-img{ max-width: 234px; }
@@ -27,16 +35,18 @@
 	.project:last-of-type {
     margin-right: auto;
 	}
+	.banner { margin-bottom: 30px; }
 }
 
 
 @media screen and (min-width:800px) and (max-width: 1199px) {
 	.header, .content { 
-		width: 800px;
+		width: 80%;
 		margin: 0 auto;
 	}
+	.core-nav-items { font-size: 23px; }
 	.header-joanna-sz { font-size: 32px; }
-
+	.banner { width: 80%; }
 	footer { margin-bottom: 10%; }
 /*	#mobileBtn {
 		display: none;
@@ -50,6 +60,52 @@
 /*	.go-to-top-Btn{
 		display: none;
 	}*/
+
+}
+
+@media screen and (max-width: 549px) {
+/*	.header-joanna-sz {
+	height: 48px;
+    margin-right: 0.5em;
+	}*/
+	.content {margin-top: 0;}
+	header { margin-bottom: 0; }
+	.nav {
+	    z-index: 10;
+	    background-color: #381D2A;
+	    width: 300px;
+	    height: 195px;
+	    position: absolute;
+	    right: 0;
+	    bottom: 0;
+	    /* This trasform moves the drawer off canvas. */
+	    -webkit-transform: translate(-1000px, 0);
+	    transform: translate(-1000px, 0);
+	    /* Optionally, we animate the drawer. */
+	    transition: transform 0.3s ease;
+	 }
+	 .nav .open {
+	    -webkit-transform: translate(300px, 0);
+	    transform: translate(300px, 0);
+	}
+	 .core-nav-items {
+	    display: none; /* list-item; */
+	    border-bottom: 1px solid #E0E0E0;
+	    width: 100%;
+	    text-align: left;
+	    margin-bottom: 20px;
+	    padding: 0;
+	}
+	.header__menu {
+	    display: inline-block;
+	    position: absolute;
+	    left: 0;
+	    padding: 1em;
+	 }
+	 .header__menu svg {
+	    width: 32px;
+	    fill: #FBFCFF;
+	}
 }
 
 
