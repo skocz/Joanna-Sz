@@ -78,6 +78,9 @@
 	height: 48px;
     margin-right: 0.5em;
 	}*/
+	.top-image {
+		background-image: url(img/kate-trysh-486230-unsplash_small.jpg);
+	}
 	.content {margin-top: 0;}
 	header { margin-bottom: 0; }
 	.core-nav {
