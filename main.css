@@ -204,7 +204,7 @@ Section top-background-image
 .top-image article { 
 	width: 100%;
 	padding: 1.5em;
-	background-color: rgb(23,15,17);
+	background-color: rgba(23,15,17, 0.9);
 /*	rgba(0, 0, 0, 0.7); */
 	box-sizing: border-box;
 	color: #FBFCFF;
