@@ -36,6 +36,10 @@
     margin-right: auto;
 	}
 	.banner { margin-bottom: 30px; }
+	.core-nav-items { padding-left: 0; }
+	.core-nav-item {
+	width: 107px;
+	}
 }
 
 
@@ -57,6 +61,12 @@
 	.featured-work-name { text-align: center; }
 
 	.featured-work { justify-content: center; }
+	.core-nav-item {
+	width: 107px;
+	}
+	.core-nav-items {
+		padding-left: 0;
+	}
 /*	.go-to-top-Btn{
 		display: none;
 	}*/
@@ -95,6 +105,7 @@
 	    text-align: left;
 	    margin-bottom: 20px;
 	    padding: 0;
+	    font-size: 18px;
 	}
 	.core-nav-item {
 		box-sizing: border-box;
