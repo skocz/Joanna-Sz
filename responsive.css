@@ -70,31 +70,40 @@
 	}*/
 	.content {margin-top: 0;}
 	header { margin-bottom: 0; }
-	.nav {
+	.core-nav {
 	    z-index: 10;
 	    background-color: #381D2A;
 	    width: 300px;
-	    height: 195px;
+	    height: 250px;
 	    position: absolute;
 	    right: 0;
 	    bottom: 0;
 	    /* This trasform moves the drawer off canvas. */
-	    -webkit-transform: translate(-1000px, 0);
+	/*    -webkit-transform: translate(-1000px, 0);*/
 	    transform: translate(-1000px, 0);
 	    /* Optionally, we animate the drawer. */
 	    transition: transform 0.3s ease;
 	 }
-	 .nav .open {
-	    -webkit-transform: translate(300px, 0);
-	    transform: translate(300px, 0);
+	.open {
+	    -webkit-transform: translate(0, 0);
+	    transform: translate(0, 0);
 	}
 	 .core-nav-items {
-	    display: none; /* list-item; */
+	    display: list-item;
 	    border-bottom: 1px solid #E0E0E0;
 	    width: 100%;
 	    text-align: left;
 	    margin-bottom: 20px;
 	    padding: 0;
+	}
+	.core-nav-item {
+		box-sizing: border-box;
+		display: inline-block;
+		width:100%;
+		text-align: center;
+		line-height: 24px;
+		padding: 24px;
+		text-transform: uppercase;
 	}
 	.header__menu {
 	    display: inline-block;
