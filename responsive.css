@@ -9,10 +9,16 @@
   display: none;
 }
 
-@media screen and (min-width:1200px) {
+@media screen and (min-width:1236px) and (max-width: 1500px) {
 	.header, .content { 
 		width: 80%;
 		margin: 0 auto;
+	}
+	.core-nav-item {
+		padding: 0;
+	}
+	.core-nav a {
+		padding: 0.5em;
 	}
 	.banner { 
 		width: 80%;
@@ -32,6 +38,10 @@
 }
 
 @media screen and (min-width: 801px) and (max-width: 1235px){
+	.header, .content { 
+	width: 80%;
+	margin: 0 auto;
+	}
 	.project:last-of-type {
     margin-right: auto;
 	}
@@ -67,6 +77,8 @@
 	.core-nav-items {
 		padding-left: 0;
 	}
+	.header-joanna-sz { 
+	font-size: 27px; }
 /*	.go-to-top-Btn{
 		display: none;
 	}*/
@@ -130,8 +142,6 @@
 	    fill: #FBFCFF;
 	}
 }
-
-
 
 
 

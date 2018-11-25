@@ -17,7 +17,7 @@
 <body>
 
     <header>
-        <div class="header">
+        <div class="header" id="header">
 <!--             <div class="header-logo-box">
                 <img class="header-logo" src="img/JSz-logo-web.png" alt="Joanna Sz's logo">
             </div> -->
@@ -29,15 +29,15 @@
 
             <nav class="core-nav" id="drawer">
                 <ul class="core-nav-items">
-                    <li class="core-nav-item"><a href="#">HOME</a></li>
+                    <li class="core-nav-item"><a href="#header">HOME</a></li>
+                    <li class="core-nav-item"><a href="#skills-header">SKILLS</a></li>
                     <li class="core-nav-item"><a href="#featured-work-name">WORK</a></li>
-                    <li class="core-nav-item"><a href="#contact">ABOUT</a></li>
                 </ul>
             </nav>
 
             <div class="header-text-box">
                 <div class="header-text">
-                    <h1 class="header-joanna-sz">Joanna SZ</h1>
+                    <h1 class="header-joanna-sz">Joanna <span id="sz">SZ</span></h1>
                     <!-- <p class="header-work-title">Front-end Ninja</p> -->
                 </div>
             </div>
@@ -55,6 +55,72 @@
     <div class="content">
 
         <main>
+            <h3 class="skills-header" id="skills-header">Skills</h3>
+            <section class="skills">
+                <div class="charts">
+
+                    <div class="chart chart-dev">
+                        <span class="chart-title">Development</span>
+                        <ul class="chart-bars">
+                            <li class="chart-bar"  style="width: 90%;">
+                                <span class="chart-tag">HTML5</span>
+                            </li>
+                            <li class="chart-bar" style="width: 70%;">
+                                <span class="chart-tag">CSS3</span>
+                            </li>
+                            <li class="chart-bar"  style="width: 55%;">
+                                <span class="chart-tag">JavaScript</span>
+                            </li>
+                            <li class="chart-bar"  style="width: 45%;">
+                                <span class="chart-tag">jQuery</span>
+                            </li>
+                            <li class="chart-bar"  style="width: 25%;">
+                                <span class="chart-tag">Grunt / Grup</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="chart chart-prod">
+                        <span class="chart-title">Productivity</span>
+                        <ul class="chart-bars">
+                            <li class="chart-bar" style="width: 68%;">
+                                <span class="chart-tag">
+                          Github
+                                </span>
+                            </li>
+                            <li class="chart-bar" style="width: 70%;">
+                                <span class="chart-tag">
+                          Microsoft Office
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="chart chart-design">
+                        <span class="chart-title">Design</span>
+                        <ul class="chart-bars">
+                            <li class="chart-bar" style="width: 50%;">
+                                <span class="chart-tag">
+                          Photoshop
+                                </span>
+                            </li>
+                            <li class="chart-bar" style="width: 65%;">
+                                <span class="chart-tag">
+                          User Experience
+                                </span>
+                            </li>
+                            <li class="chart-bar" style="width: 60%;">
+                                <span class="chart-tag">
+                          Knowledge Organization
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                                    
+                </div>
+
+                    
+            </section>
+
             <h3 class="featured-work-name" id="featured-work-name">Featured Work</h3>
             <section class="featured-work">
                      <div class="project">
@@ -104,20 +170,7 @@
     </div>
 
 </body>
-<!-- <button onclick="topFunction()" id="mobileBtn" title="Go to top">Top</button> -->
-<!--     <script>
-      /*
-       * Open the drawer when the menu ison is clicked.
-       */
-    function openNav() {
-        let menu_clicker = document.getElementsByClassName("nav").classList;
-        menu_clicker.add("open");
-    }
-    function close() {
-        document.getElementById("drawer").classList.remove("open");
-    }
 
-    </script> -->
 <script src="mobile-nav.js" type="text/javascript"></script>
 <script src="go-to-top-btn.js"></script>
 
