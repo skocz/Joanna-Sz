@@ -79,8 +79,16 @@ button-go-to-the-top
 	font-size: 14px;
 	border: none;
 	outline: none;
+<<<<<<< HEAD
 	background-color: #381d2a;
 	color: #fff;
+||||||| merged common ancestors
+	background-color: #381d2a;
+	color: #9ed0e6;
+=======
+	background-color: #fff;
+	color: #9ed0e6;
+>>>>>>> 2e59f0fa6e8be78696511f5d4d62d6296e88fdcb
 	cursor: pointer;
 	padding: 12px;
 	border-radius: 2px;
