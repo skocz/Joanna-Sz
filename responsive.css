@@ -92,12 +92,12 @@
 
 }
 
-@media screen and (max-width: 549px) {
+/* @media screen and (max-width: 549px) { */
 /*	.header-joanna-sz {
 	height: 48px;
     margin-right: 0.5em;
 	}*/
-	.top-image {
+	/*.top-image {
 		background-image: url(img/kate-trysh-486230-unsplash_small.jpg);
 	}
 	.content {margin-top: 0;}
@@ -110,10 +110,10 @@
 	    position: absolute;
 	    right: 0;
 	    bottom: 0;
-	    /* This trasform moves the drawer off canvas. */
-	/*    -webkit-transform: translate(-1000px, 0);*/
-	    transform: translate(-1000px, 0);
-	    /* Optionally, we animate the drawer. */
+	     This trasform moves the drawer off canvas. */
+	/*    -webkit-transform: translate(-1000px, 0);
+	    transform: translate(-1000px, 0);*/
+	    /* Optionally, we animate the drawer. 
 	    transition: transform 0.3s ease;
 	 }
 	.open {
@@ -148,7 +148,7 @@
 	    width: 32px;
 	    fill: #FBFCFF;
 	}
-}
+} */
 
 
 
