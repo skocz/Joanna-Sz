@@ -98,7 +98,7 @@ header items
 */
 
 .core-nav{
-	background-color: rgba(0, 0, 0, 0.8);
+	background-color: rgb(221,221,221);
 	display: flex;
     width: 100%;
     height: auto !important;
@@ -120,7 +120,7 @@ header items
     justify-content: flex-start;
     width: 90%;
     height: 100%;
-    color: black;
+    color: #02111B;
     margin:0 auto;
     font-size: 24px;
 /*    flex-grow: 1;
@@ -135,7 +135,7 @@ header items
 	transform: translate(0,0);
 }
 .menu-item-active{
-	color: white;
+	color: #8B6220; /*gold*/
 }
 .nav-item > a{
 	display: block;
@@ -161,7 +161,7 @@ header items
     position: absolute;
     top: 0;
     z-index: 0;
-    color: white;
+    color: #1d2323;
     margin-right: 0.5em;
 }
 /*
