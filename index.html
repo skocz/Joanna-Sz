@@ -13,8 +13,8 @@
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
  <!--    <script src="mobile-nav.js" type="text/javascript"></script> -->
  <style>
-     .top-image{
-        background-image: url(img/jason-leung-wmyE5IBiOmo-unsplash.jpg);
+     header{
+        background-image: url(img/steve-johnson-dvMKIGmSQn8-unsplash.jpg);
      }
 
  </style>
@@ -38,7 +38,9 @@
                 <li class="nav-item"><a href="#featured-work-name">PROJECTS</a></li>
             </ul> 
         </nav><div class="header-joanna-sz"><span>Joanna Sz</span> </div>
-<!-- PICTURE BANNER  -->
+    </header> 
+    <!-- MAIN -->
+    <main class="content">
         <section class="banner">
             <section class="top-image">
                 <article class="description">
@@ -46,113 +48,106 @@
                 </article>
             </section>
         </section>
-    </header>
+        <h3 class="skills-header" id="skills-header">Skills</h3>
+         <section class="skills">
+            <div class="charts">
 
-    
-
-        <main class="content">
-            <h3 class="skills-header" id="skills-header">Skills</h3>
-            <section class="skills">
-                <div class="charts">
-
-                    <div class="chart chart-dev">
-                        <span class="chart-title">Development</span>
-                        <ul class="chart-bars">
-                            <li class="chart-bar"  style="width: 90%;">
-                                <span class="chart-tag">HTML5</span>
-                            </li>
-                            <li class="chart-bar" style="width: 70%;">
-                                <span class="chart-tag">CSS3</span>
-                            </li>
-                            <li class="chart-bar"  style="width: 55%;">
-                                <span class="chart-tag">JavaScript</span>
-                            </li>
-                            <li class="chart-bar"  style="width: 45%;">
-                                <span class="chart-tag">jQuery</span>
-                            </li>
-                            <li class="chart-bar"  style="width: 25%;">
-                                <span class="chart-tag">Grunt / Grup</span>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="chart chart-prod">
-                        <span class="chart-title">Productivity</span>
-                        <ul class="chart-bars">
-                            <li class="chart-bar" style="width: 68%;">
-                                <span class="chart-tag">
-                          Github
-                                </span>
-                            </li>
-                            <li class="chart-bar" style="width: 70%;">
-                                <span class="chart-tag">
-                          Microsoft Office
-                                </span>
-                            </li>
-                        </ul>
-                    </div>
-                    
-                    <div class="chart chart-design">
-                        <span class="chart-title">Design</span>
-                        <ul class="chart-bars">
-                            <li class="chart-bar" style="width: 50%;">
-                                <span class="chart-tag">
-                          Photoshop
-                                </span>
-                            </li>
-                            <li class="chart-bar" style="width: 65%;">
-                                <span class="chart-tag">
-                          User Experience
-                                </span>
-                            </li>
-                            <li class="chart-bar" style="width: 60%;">
-                                <span class="chart-tag">
-                          Knowledge Organization
-                                </span>
-                            </li>
-                        </ul>
-                    </div>
-                                    
+                <div class="chart chart-dev">
+                    <span class="chart-title">Development</span>
+                    <ul class="chart-bars">
+                        <li class="chart-bar"  style="width: 90%;">
+                            <span class="chart-tag">HTML5</span>
+                        </li>
+                        <li class="chart-bar" style="width: 70%;">
+                            <span class="chart-tag">CSS3</span>
+                        </li>
+                        <li class="chart-bar"  style="width: 55%;">
+                            <span class="chart-tag">JavaScript</span>
+                        </li>
+                        <li class="chart-bar"  style="width: 45%;">
+                            <span class="chart-tag">jQuery</span>
+                        </li>
+                        <li class="chart-bar"  style="width: 25%;">
+                            <span class="chart-tag">Grunt / Grup</span>
+                        </li>
+                    </ul>
                 </div>
-
+                <div class="chart chart-prod">
+                    <span class="chart-title">Productivity</span>
+                    <ul class="chart-bars">
+                        <li class="chart-bar" style="width: 68%;">
+                            <span class="chart-tag">
+                          Github
+                            </span>
+                        </li>
+                        <li class="chart-bar" style="width: 70%;">
+                            <span class="chart-tag">
+                          Microsoft Office
+                            </span>
+                        </li>
+                    </ul>
+                </div>
                     
-            </section>
+                <div class="chart chart-design">
+                    <span class="chart-title">Design</span>
+                    <ul class="chart-bars">
+                        <li class="chart-bar" style="width: 50%;">
+                            <span class="chart-tag">
+                          Photoshop
+                            </span>
+                        </li>
+                        <li class="chart-bar" style="width: 65%;">
+                            <span class="chart-tag">
+                          User Experience
+                            </span>
+                        </li>
+                        <li class="chart-bar" style="width: 60%;">
+                            <span class="chart-tag">
+                          Knowledge Organization
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+                                    
+            </div>
+        
+        </section>
+        <h3 class="featured-work-name" id="featured-work-name">Featured Work</h3>
+        <section class="featured-work">
+            <div class="project">
+                <a href="https://skocz.github.io/frontend-nanodegree-arcade-game/" target="_blank"><img src="img/arcade-game.png" alt="image of the arcade game" class="portfolio-img"></a>
+                <h4 class="project-title">Arcade-Game</h4>
+                <p class="program-languages"><span id="html">HTML </span><span id="css">CSS </span><span id="javascript">JavaScript</span></p>
+                <a href="https://github.com/skocz/frontend-nanodegree-arcade-game" target="_blank">GitHub</a>
+            </div>
+            <div class="project">
+                <a href="https://skocz.github.io/memory-card-game/" target="_blank"><img src="img/memory-card-game.png" alt="picture of the memory card game" class="portfolio-img"></a>
+                <h4 class="project-title">Memory-Card-Game</h4>
+                <p class="program-languages"><span id="html">HTML </span><span id="css">CSS </span><span id="javascript">JavaScript</span></p>
+                <a href="https://github.com/skocz/memory-card-game" target="_blank">GitHub</a>
+            </div>
+            <div class="project">
+                <a href="https://skocz.github.io/pixel-art-maker/" target="_blank"><img src="img/art-maker.jpg" alt="picture of the pixel art maker game" class="portfolio-img"></a>
+                <h4 class="project-title">Pixel-Art-Maker</h4>
+                <p class="program-languages"><span id="html">HTML </span><span id="css">CSS </span><span id="javascript">JavaScript</span></p>
+                <a href="https://github.com/skocz/pixel-art-maker.git" target="_blank">GitHub</a>
+            </div>
+            <div class="project">
+                <a href="https://skocz.github.io/Trading-Card/" target="_blank"><img src="img/trading-card.png" alt="image of the giraffe with some description" class="portfolio-img"></a>
+                <h4 class="project-title">Trading-Card</h4>
+                <p class="program-languages"><span id="html">HTML </span><span id="css">CSS</span></p>
+                <a href="https://github.com/skocz/Trading-Card.git" target="_blank">GitHub</a>
+            </div>
+            <div class="project">
+                <a href="https://skocz.github.io/mockup-to-article/" target="_blank"><img src="img/mockup-to-article.png" alt="image of some article with plain text" class="portfolio-img"></a>
+                <h4 class="project-title">Mockup-To-Article</h4>
+                <p class="program-languages"><span id="html">HTML</span></p>
+                <a href="https://github.com/skocz/mockup-to-article.git" target="_blank">GitHub</a>
+            </div>
+        </section>
+    </main>
 
-            <h3 class="featured-work-name" id="featured-work-name">Featured Work</h3>
-            <section class="featured-work">
-                     <div class="project">
-                        <a href="https://skocz.github.io/frontend-nanodegree-arcade-game/" target="_blank"><img src="img/arcade-game.png" alt="image of the arcade game" class="portfolio-img"></a>
-                        <h4 class="project-title">Arcade-Game</h4>
-                        <p class="program-languages"><span id="html">HTML </span><span id="css">CSS </span><span id="javascript">JavaScript</span></p>
-                        <a href="https://github.com/skocz/frontend-nanodegree-arcade-game" target="_blank">GitHub</a>
-                    </div>
-                    <div class="project">
-                        <a href="https://skocz.github.io/memory-card-game/" target="_blank"><img src="img/memory-card-game.png" alt="picture of the memory card game" class="portfolio-img"></a>
-                        <h4 class="project-title">Memory-Card-Game</h4>
-                        <p class="program-languages"><span id="html">HTML </span><span id="css">CSS </span><span id="javascript">JavaScript</span></p>
-                        <a href="https://github.com/skocz/memory-card-game" target="_blank">GitHub</a>
-                    </div>
-                    <div class="project">
-                        <a href="https://skocz.github.io/pixel-art-maker/" target="_blank"><img src="img/art-maker.jpg" alt="picture of the pixel art maker game" class="portfolio-img"></a>
-                        <h4 class="project-title">Pixel-Art-Maker</h4>
-                        <p class="program-languages"><span id="html">HTML </span><span id="css">CSS </span><span id="javascript">JavaScript</span></p>
-                        <a href="https://github.com/skocz/pixel-art-maker.git" target="_blank">GitHub</a>
-                    </div>
-                    <div class="project">
-                        <a href="https://skocz.github.io/Trading-Card/" target="_blank"><img src="img/trading-card.png" alt="image of the giraffe with some description" class="portfolio-img"></a>
-                        <h4 class="project-title">Trading-Card</h4>
-                        <p class="program-languages"><span id="html">HTML </span><span id="css">CSS</span></p>
-                        <a href="https://github.com/skocz/Trading-Card.git" target="_blank">GitHub</a>
-                    </div>
-                    <div class="project">
-                        <a href="https://skocz.github.io/mockup-to-article/" target="_blank"><img src="img/mockup-to-article.png" alt="image of some article with plain text" class="portfolio-img"></a>
-                        <h4 class="project-title">Mockup-To-Article</h4>
-                        <p class="program-languages"><span id="html">HTML</span></p>
-                        <a href="https://github.com/skocz/mockup-to-article.git" target="_blank">GitHub</a>
-                    </div>
-            </section>
-        </main>
-
-        <div class="go-to-top-Btn"><button onclick="topFunction()" id="page-Btn" title="Go to top">Top</button></div>
+    <div class="go-to-top-Btn"><button onclick="topFunction()" id="page-Btn" title="Go to top">Top</button></div>
 
         <footer>
             <ul class="footer-list footer-left" id="contact">

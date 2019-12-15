@@ -59,44 +59,15 @@ ul {
 
 /*
 *
-button-go-to-the-top
-*
-*/
-.go-to-top-Btn{
-	display: block;
-    margin-top: -51px;
-    position: relative;
-    text-align: center;
-    top: 23px;
-    z-index: 1;
-}
-#page-Btn {
-	font-size: 14px;
-	border: none;
-	outline: none;
-<<<<<<< HEAD
-	background-color: #381d2a;
-	color: #fff;
-||||||| merged common ancestors
-	background-color: #381d2a;
-	color: #9ed0e6;
-=======
-	background-color: #fff;
-	color: #9ed0e6;
->>>>>>> 2e59f0fa6e8be78696511f5d4d62d6296e88fdcb
-	cursor: pointer;
-	padding: 12px;
-	border-radius: 2px;
-}
-#page-Btn:hover { background-color: #555; }
-
-
-/*
-*
 header items
 *
 */
-
+header {
+	background-size: contain;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	min-height: 381px;
+}
 .core-nav{
 	background-color: rgb(221,221,221);
 	display: flex;
@@ -133,6 +104,7 @@ header items
 .open{
 	flex-wrap: wrap;
 	transform: translate(0,0);
+	padding-top: 50px;
 }
 .menu-item-active{
 	color: #8B6220; /*gold*/
@@ -159,7 +131,7 @@ header items
 	font-weight: 100;
 	right: 0;
     position: absolute;
-    top: 0;
+    top: 22px;
     z-index: 0;
     color: #1d2323;
     margin-right: 0.5em;
@@ -181,27 +153,16 @@ main {
 	margin-left: auto;
 	margin-right: auto;
 }
-/*
-content
-*/
-/*
-Section top-background-image 
-*/
 
+/*
+Lower Section for header 
+*/
 .banner { 
     width: 100%;
     position: relative;
     margin-left: auto;
     margin-right: auto;
 }
-.top-image {
-	background-size: cover;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	min-height: 490px;
-}
-
-
 .top-image article { 
 	width: 100%;
 	padding: 1.5em;
@@ -326,7 +287,6 @@ Featured work
 	font-weight: 200;
 	letter-spacing: 3px;
 	width: 100%;
-	margin-top: 1em;
 	padding: 1em 0 1em 18px;
 }
 .portfolio-img {
@@ -364,6 +324,40 @@ Featured work
 #css { color:orange; }
 
 #javascript{ color:red; }
+/*
+*
+button-go-to-the-top
+*
+*/
+.go-to-top-Btn{
+	display: block;
+    margin-top: -51px;
+    position: relative;
+    text-align: center;
+    top: 23px;
+    z-index: 1;
+}
+#page-Btn {
+	font-size: 14px;
+	border: none;
+	outline: none;
+<<<<<<< HEAD
+	background-color: #381d2a;
+	color: #fff;
+||||||| merged common ancestors
+	background-color: #381d2a;
+	color: #9ed0e6;
+=======
+	background-color: #fff;
+	color: #9ed0e6;
+>>>>>>> 2e59f0fa6e8be78696511f5d4d62d6296e88fdcb
+	cursor: pointer;
+	padding: 12px;
+	border-radius: 2px;
+}
+#page-Btn:hover { background-color: #555; }
+
+
 /*
 Footer
 */
