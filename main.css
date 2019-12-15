@@ -320,8 +320,8 @@ button-go-to-the-top
 	font-size: 16px;
 	border: none;
 	outline: none;
-	background-color: #D59F48;
-	color: #1A1A1A;
+	background-color: #1c1406;
+	color: #e2bc79;
 	cursor: pointer;
 	padding: 12px;
 	border-radius: 2px;
@@ -338,8 +338,10 @@ footer {
 	/*padding: 1em;*/
 	padding: 10px 12px 15px 12px;
 	overflow: hidden;
-	background-color: var(--background-color-white);
+	background-color: rgba(247, 236, 219,0.8)!important;
+	background-color: rgb(247, 236, 219);
 	margin-bottom: 0;
+	margin-top: 10px;
 	display: flex;
 	flex-direction: row;
 }
