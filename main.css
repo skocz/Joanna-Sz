@@ -66,10 +66,11 @@ header {
 	background-size: cover;
 	/*background-attachment: fixed;*/
 	background-repeat: no-repeat;
-	min-height: 300px;
+	min-height: 622px;
 }
 .core-nav{
-	background-color: rgb(221,221,221,0.8);
+	background-color: rgb(221,221,221,0.8)!important;
+	background-color: rgb(221,221,221);
 	display: flex;
     width: 100%;
     height: auto !important;
