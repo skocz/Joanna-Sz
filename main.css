@@ -112,7 +112,7 @@ header {
     line-height: 1.7;*/
   /*  justify-content: space-around; */
    	text-rendering: geometricPrecision;
-   	transform: translate(-40000px, 0);
+   	transform: translate(-10000px, 0);
    	transition: transform 1s;
 }
 .open{
