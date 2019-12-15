@@ -123,12 +123,15 @@ header {
 /*.menu-item-active{
 	color: #8B6220; 
 }*/
+.nav-items > .nav-item:first-child {
+	padding-top: 40px;
+}
+
 .nav-item > a{
 	display: block;
 	overflow: hidden;
 	text-overflow: ellipsis;
 	white-space: nowrap;
-	padding: 1em;
 	text-decoration: none;
 	color: inherit;
 }
@@ -137,6 +140,7 @@ header {
 	height: 100%;
 } 
 .nav-item{
+	padding: 12px;
 	list-style-type: none;
 	display: inline-block;
 }
