@@ -79,8 +79,8 @@ header {
     margin-left: 0.5em;
 }
 .core-nav{
-	background-color: rgba(221,221,221,0.8)!important;
-	background-color: rgb(221,221,221);
+	background-color: rgba(247, 236, 219,0.8)!important;
+	background-color: rgb(247, 236, 219);
 	display: flex;
     width: 100%;
     height: auto !important;
@@ -186,7 +186,7 @@ SKILLS
 .chart-bar { 
  	height: 30px;
   	margin-bottom: 10px;
-  	background:red;
+  	background: #381d2a;
   	border-radius: 4px;
 }
  .chart-bars {
@@ -317,19 +317,11 @@ button-go-to-the-top
     z-index: 1;
 }
 #page-Btn {
-	font-size: 14px;
+	font-size: 16px;
 	border: none;
 	outline: none;
-<<<<<<< HEAD
-	background-color: #381d2a;
-	color: #fff;
-||||||| merged common ancestors
-	background-color: #381d2a;
-	color: #9ed0e6;
-=======
-	background-color: #fff;
-	color: #9ed0e6;
->>>>>>> 2e59f0fa6e8be78696511f5d4d62d6296e88fdcb
+	background-color: #D59F48;
+	color: #1A1A1A;
 	cursor: pointer;
 	padding: 12px;
 	border-radius: 2px;
