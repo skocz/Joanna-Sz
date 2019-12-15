@@ -7,9 +7,18 @@
 	--turkus:#0F4C5C;
 	--pink: #ED217C;
 }
-body, html {
-	margin: 0;
-	padding: 0;
+html, body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  box-sizing: border-box;
+}
+
+*, *:before, *:after{
+  box-sizing: inherit;
 }
 body {
 /*	background-image: 
@@ -19,49 +28,35 @@ body {
 		background-image: 
 		linear-gradient(#ED217C 30%, #19385E 50%, #5F9DB6 80%, #EAEAEA);*/
 
-	font-family: Roboto;
+	font-family: Roboto, 'Lato', Helvetica, sans-serif;;
 	font-size: 16px;
 	display: block;
 	width: 100%;
 	height: 100%;
 }
 
-h1, h2, h3, h4, h5 { margin: 0; }
+html, body, div, span,h1, h2, h3, h4, h5, h6, p, a, address,
+img, sub, sup, ol, ul, li, fieldset, form, label,table,
+tbody, tfoot, thead, tr, th, td, article, aside, canvas, details,
+figure, figcaption, footer, header, menu, nav, section {
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
 
 /*to make the website be fully grid responsive 
 by reseting the box model which by default doesnt include padding 
 and border within declered width and height.  */
 
-header, section, div, footer {
-	box-sizing: border-box;
-}
-* {
-	box-sizing: border-box;
-}
-/*header {
-	margin-bottom: 30px;
-}*/
-
 ul {
 	list-style: none;
 	list-style-position: outside;
-	margin-left: 30px;
-	list-style-type: disc;
+/*	list-style-type: disc;*/
 }
-/*
-font style 
-common for header 
-*/
- .header-joanna-sz, .header-text {
- 	text-align: right;
- 	text-transform: uppercase;
- 	letter-spacing: 0;
- 	color: #FBFCFF;
- 	margin-left: auto;
-}
-#sz {
-	font-weight: 700;
-}
+
 /*
 *
 button-go-to-the-top
@@ -94,84 +89,80 @@ button-go-to-the-top
 	border-radius: 2px;
 }
 #page-Btn:hover { background-color: #555; }
+
+
 /*
 *
 header items
 *
 */
-.header { 
+
+.core-nav{
+	background-color: rgba(0, 0, 0, 0.8);
 	display: flex;
+    width: 100%;
+    height: auto !important;
+}
+
+.header-menu {
+	display: inline-block;
+	position: relative;
+	left: 0;
+	padding: 1em;
+}
+.header-menu svg {
+	width: 46px;
+	fill: #FBFCFF;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: flex-start;
+    width: 90%;
+    height: 100%;
+    color: #FBFCFF;
+    margin:0 auto;
+    font-size: 24px;
+/*    flex-grow: 1;
+    line-height: 1.7;*/
+  /*  justify-content: space-around; */
+   	text-rendering: geometricPrecision;
+   	transform: translate(-40000px, 0);
+   	transition: transform 1s;
+}
+.open{
+	flex-wrap: wrap;
+	transform: translate(0,0);
+}
+.menu-item-active{
+	color: red;
+}
+.nav-item > a{
+	display: block;
 	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	padding: 1em;
+	text-decoration: none;
+	color: inherit;
+}
+.nav-items > .nav-item{
 	width: 100%;
-	height: 83px;
-	margin: auto;
-	background-color: #170F11; 
-/*	box-shadow: 1px 1px 2px #bbb8b2;*/
-	box-shadow: 1px 1px 2px #272838;
-}
-.header-text-box { 
-	display: flex;
-	align-items: center;
-/*	margin-left: auto;*/
-/*	display: inline-block;*/
-	width: 100%; 
-}
-.header-text{
-	margin-right: 10px;
-}
-.header-work-title { 	
-	padding:5px 0 10px 0;
-	margin: 0;
+	height: 100%;
+} 
+.nav-item{
+	list-style-type: none;
+	display: inline-block;
 }
 .header-joanna-sz { 
 	font-size: 23px;
-/*	margin-top: 10px;
-	padding-bottom: 0;
-	padding-top: 10px;*/
 	font-weight: 100;
-}
-.header-logo-box { 
-	float: left;
-	vertical-align: top;
-}
-.header-logo {
-	width: 100px;
-	height: 83px;
-}
-.core-nav{
-	vertical-align: middle;
-	display: flex;
-    /*overflow: hidden;*/
-    width: 100%;
-    min-height: 60px;
-}
-.core-nav-items {
-    display: flex;
-	list-style: none;
-    font-size: 24px;
-    flex-grow: 1;
-    line-height: 1.7;
-  /*  justify-content: space-around;*/
-    text-rendering: geometricPrecision;
-}
-
-.core-nav-item {
-	color: #FBFCFF;
-    font-weight: 700;
-    margin: 0;
-    padding-right: 28px;
-    display: inline-block;
-}
-
-.core-nav a {
-  text-decoration: none;
-  color: #FBFCFF;;
-/*  padding: 1.5em;*/
-}
-
-.core-nav a:hover {
-  text-decoration: underline;
-  color: #212121;
+	right: 0;
+    position: absolute;
+    top: 0;
+    z-index: 0;
+    color: white;
+    margin-right: 0.5em;
 }
 /*
 *
@@ -188,7 +179,6 @@ main {
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: var(--background-color-white);
 }
 /*
 content
@@ -204,11 +194,10 @@ Section top-background-image
     margin-right: auto;
 }
 .top-image {
-	background-image: url(img/steve-johnson-dvMKIGmSQn8-unsplash.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
-	min-height: 400px;
+	min-height: 490px;
 }
 
 

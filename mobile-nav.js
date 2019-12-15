@@ -4,7 +4,7 @@
 window.onload=function(){
   let menu = document.querySelector('#menu');
   let main = document.querySelector('main');
-  let drawer = document.querySelector('.core-nav');
+  let drawer = document.querySelector('.nav-items');
 
   menu.addEventListener('click', function(e) {
     drawer.classList.toggle('open');

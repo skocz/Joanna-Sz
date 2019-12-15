@@ -14,7 +14,7 @@
  <!--    <script src="mobile-nav.js" type="text/javascript"></script> -->
  <style>
      .top-image{
-        background-image: url(img/steve-johnson-dvMKIGmSQn8-unsplash.jpg);
+        background-image: url(img/steve-johnson-dvMKIGmSQn8-unsplash-320.jpg);
      }
 
  </style>
@@ -23,31 +23,21 @@
 <body>
 
     <header>
-        <div class="header" id="header">
-<!--             <div class="header-logo-box">
-                <img class="header-logo" src="img/JSz-logo-web.png" alt="Joanna Sz's logo">
-            </div> -->
-             <a id="menu" class="header__menu">
+        <!-- NAVIGATION BAR -->
+        <nav class="core-nav" id="drawer">
+           <!--  MOBILE MENU ICON -->
+            <a id="menu" class="header-menu">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                     <path d="M2 6h20v3H2zm0 5h20v3H2zm0 5h20v3H2z"/>
                 </svg>
-            </a>
-
-            <nav class="core-nav" id="drawer">
-                <ul class="core-nav-items">
-                    <li class="core-nav-item"><a href="#header">HOME</a></li>
-                    <li class="core-nav-item"><a href="#skills-header">SKILLS</a></li>
-                    <li class="core-nav-item"><a href="#featured-work-name">WORK</a></li>
-                </ul>
-            </nav>
-
-            <div class="header-text-box">
-                <div class="header-text">
-                    <h1 class="header-joanna-sz">Joanna <span id="sz">SZ</span></h1>
-                    <!-- <p class="header-work-title">Front-end Ninja</p> -->
-                </div>
-            </div>
-        </div>
+            </a> 
+           <!--  MENU  -->         
+            <ul class="nav-items">
+                <li class="nav-item menu-item menu-item-active"><a href="#header">Skills</a></li>
+                <li class="nav-item"><a href="#skills-header">ABOUT</a></li>
+                <li class="nav-item"><a href="#featured-work-name">PROJECTS</a></li>
+            </ul> 
+        </nav><div class="header-joanna-sz"><span>Joanna Sz</span> </div>
 <!-- PICTURE BANNER  -->
         <section class="banner">
             <section class="top-image">
@@ -58,9 +48,9 @@
         </section>
     </header>
 
-    <div class="content">
+    
 
-        <main>
+        <main class="content">
             <h3 class="skills-header" id="skills-header">Skills</h3>
             <section class="skills">
                 <div class="charts">
@@ -173,7 +163,7 @@
                 <li class="footer-icon"><a href="#"><i class="fab fa-facebook-square fa-2x"></i></a></li>
             </ul>
         </footer>
-    </div>
+
 
 </body>
 
