@@ -165,7 +165,7 @@ SKILLS
 .skills {
 	width: 80%;
 	max-width: 960px;
-	height: 550px;
+	height: 500px;
 	margin: auto;
 	position: relative;
 }
@@ -176,9 +176,6 @@ SKILLS
 	top: 0;
 	left: 0;
 	z-index: 10;
-}
-.chart {
-  	margin: 30px 0 0;
 }
 .chart-title {
   	display: block;
