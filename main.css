@@ -75,7 +75,7 @@ header {
     position: absolute;
     top: 22px;
     z-index: 0;
-    color: #1d2323;
+    color: #8B6220; /*gold*/
     margin-left: 0.5em;
 }
 .core-nav{
@@ -120,9 +120,9 @@ header {
 	transform: translate(0,0);
 	padding-top: 50px;
 }
-.menu-item-active{
-	color: #8B6220; /*gold*/
-}
+/*.menu-item-active{
+	color: #8B6220; 
+}*/
 .nav-item > a{
 	display: block;
 	overflow: hidden;
@@ -318,6 +318,7 @@ button-go-to-the-top
 }
 #page-Btn {
 	font-size: 16px;
+	font-weight: 500;
 	border: none;
 	outline: none;
 	background-color: #1c1406;
@@ -326,7 +327,7 @@ button-go-to-the-top
 	padding: 12px;
 	border-radius: 2px;
 }
-#page-Btn:hover { background-color: #555; }
+#page-Btn:hover { background-color: #381d2a; }
 
 
 /*
