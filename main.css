@@ -68,8 +68,18 @@ header {
 	background-repeat: no-repeat;
 	min-height: 622px;
 }
+.header-joanna-sz { 
+	font-size: 23px;
+	font-weight: 100;
+	left: 0;
+    position: absolute;
+    top: 22px;
+    z-index: 0;
+    color: #1d2323;
+    margin-left: 0.5em;
+}
 .core-nav{
-	background-color: rgb(221,221,221,0.8)!important;
+	background-color: rgba(221,221,221,0.8)!important;
 	background-color: rgb(221,221,221);
 	display: flex;
     width: 100%;
@@ -78,9 +88,10 @@ header {
 
 .header-menu {
 	display: inline-block;
-	position: relative;
-	left: 0;
+	position: absolute;
+	right: 10px;
 	padding: 1em;
+	z-index: 12;
 }
 .header-menu svg {
 	width: 46px;
@@ -93,7 +104,7 @@ header {
     width: 90%;
     height: 100%;
     color: #583E13;
-    margin:0 auto;
+    /*margin:0 auto;*/
     font-size: 24px;
 /*    flex-grow: 1;
     line-height: 1.7;*/
@@ -127,16 +138,6 @@ header {
 	list-style-type: none;
 	display: inline-block;
 }
-.header-joanna-sz { 
-	font-size: 23px;
-	font-weight: 100;
-	right: 0;
-    position: absolute;
-    top: 22px;
-    z-index: 0;
-    color: #1d2323;
-    margin-right: 0.5em;
-}
 /*
 *
 content
@@ -156,7 +157,7 @@ main {
 }
 
 /*
-SKILSS
+SKILLS
 */
 
 .skills {
@@ -260,13 +261,13 @@ Featured work
 	clear:both;
 	padding: 10px;
 }
-.featured-work-name, .skills-header {
+.main-sub-headers {
 	color: #272838;
 	font-size: 2rem;
 	font-weight: 200;
 	letter-spacing: 3px;
 	width: 100%;
-	padding: 1em 0 1em 18px;
+	padding: 1em;
 }
 .portfolio-img {
 	width: 100%;
@@ -298,11 +299,11 @@ Featured work
 
 .program-languages { display: block; }
 
-#html { color: blue; }
+.html-tag { color: blue; }
 
-#css { color:orange; }
+.css-tag { color:orange; }
 
-#javascript{ color:red; }
+.javascript-tag { color:red; }
 /*
 *
 button-go-to-the-top
