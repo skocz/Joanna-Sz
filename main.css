@@ -112,7 +112,7 @@ header items
 }
 .header-menu svg {
 	width: 46px;
-	fill: #FBFCFF;
+	fill: black;
 }
 
 .nav-items {
@@ -120,7 +120,7 @@ header items
     justify-content: flex-start;
     width: 90%;
     height: 100%;
-    color: #FBFCFF;
+    color: black;
     margin:0 auto;
     font-size: 24px;
 /*    flex-grow: 1;
@@ -135,7 +135,7 @@ header items
 	transform: translate(0,0);
 }
 .menu-item-active{
-	color: red;
+	color: white;
 }
 .nav-item > a{
 	display: block;
@@ -172,6 +172,7 @@ content
 .content { 
 	box-shadow: 1px 5px 5px #272838;
 /*	margin-top: 30px;*/ }
+ 
  /*
  main
  */
@@ -204,10 +205,10 @@ Section top-background-image
 .top-image article { 
 	width: 100%;
 	padding: 1.5em;
-	background-color: rgba(23,15,17, 0.9);
+	background-color: rgb(221,221,221, 0.8);
 /*	rgba(0, 0, 0, 0.7); */
 	box-sizing: border-box;
-	color: #FBFCFF;
+	color: black;
 	/*#a19ea8;*/
 	bottom: 0;
 	position: absolute;
