@@ -293,11 +293,11 @@ Featured work
 }
 /* Position the "next button" to the right */
 .next {
-  right: -3px;
+  right: 0px;
   border-radius: 3px 0 0 3px;
 }
 .prev {
-	left: -3px;
+	left: 0px;
 }
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
@@ -351,7 +351,7 @@ Featured work
 }
 .portfolio-img {
 	width: 100%;
-	max-width: 290px;
+	max-width: 225px;
 	height: 235px;
 	object-fit: cover;
 	border: 1px solid lightgray; 
@@ -361,7 +361,7 @@ Featured work
   	text-align: center;
   	line-height: 18px;
   	height: 350px;
-  	width: 370px;
+  	width: 309px;
   	margin-bottom: 5%;
 }
 
