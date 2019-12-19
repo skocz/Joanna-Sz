@@ -78,12 +78,15 @@ header {
     color: #8B6220; /*gold*/
     margin-left: 0.5em;
 }
-.core-nav{
+.mobile-height {
+	height: auto !important;
+}
+.core-nav {
 	background-color: rgba(247, 236, 219,0.8)!important;
 	background-color: rgb(247, 236, 219);
 	display: flex;
     width: 100%;
-    height: auto !important;
+    height: 80px;
 }
 
 .header-menu {
@@ -108,17 +111,19 @@ header {
     color: #583E13;
     /*margin:0 auto;*/
     font-size: 24px;
+    flex-wrap: wrap;
+    padding-top: 50px;
 /*    flex-grow: 1;
     line-height: 1.7;*/
   /*  justify-content: space-around; */
    	text-rendering: geometricPrecision;
-   	transform: translate(-10000px, 0);
-   	transition: transform 1s;
+   	transform: translate(-9999px, 0);
+   	transition: transform 0.52s;
 }
 .open{
-	flex-wrap: wrap;
+	/*flex-wrap: wrap;*/
 	transform: translate(0,0);
-	padding-top: 50px;
+	/*padding-top: 50px;*/
 }
 /*.menu-item-active{
 	color: #8B6220; 
@@ -151,7 +156,7 @@ content
 */
 .content { 
 	box-shadow: 1px 5px 5px #381d2a;
-/*	margin-top: 30px;*/ }
+}
  
  /*
  main
@@ -161,7 +166,6 @@ main {
 	margin-left: auto;
 	margin-right: auto;
 }
-
 /*
 SKILLS
 */

@@ -5,14 +5,17 @@ window.onload=function(){
   let menu = document.querySelector('#menu');
   let main = document.querySelector('main');
   let drawer = document.querySelector('.nav-items');
+  let navHeight = document.querySelector('nav');
 
   menu.addEventListener('click', function(e) {
     drawer.classList.toggle('open');
+    navHeight.classList.toggle('mobile-height');
     e.stopPropagation();
     console.log(e);
   });
   main.addEventListener('click', function() {
     drawer.classList.remove('open');
+    navHeight.classList.remove('mobile-height');
     console.log(e);
   });
     
@@ -26,6 +29,9 @@ window.onload=function(){
     if (window.pageYOffset >= sticky ) {
     } else {
       drawer.classList.remove("open");
+      navHeight.classList.remove('mobile-height');
     }
   }
 }
+
+
