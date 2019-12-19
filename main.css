@@ -121,9 +121,7 @@ header {
    	transition: transform 0.52s;
 }
 .open{
-	/*flex-wrap: wrap;*/
 	transform: translate(0,0);
-	/*padding-top: 50px;*/
 }
 /*.menu-item-active{
 	color: #8B6220; 
@@ -139,6 +137,9 @@ header {
 	white-space: nowrap;
 	text-decoration: none;
 	color: inherit;
+}
+.nav-item > a:hover {
+	color: #787358;
 }
 .nav-items > .nav-item{
 	width: 100%;
@@ -300,7 +301,7 @@ Featured work
 }
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(247, 236, 219,0.8);
 }
 /* Caption text */
 .text {
@@ -372,8 +373,7 @@ Featured work
 	color:  #272838;
 	transition: all 0.5s;
 }
- a:hover { color: #787358; }
-
+/* a:hover { color: #787358; }*/
 .project-title { 
 	text-transform: uppercase;
 	color: black; 
@@ -419,7 +419,7 @@ Footer
 footer {
   	border-top: 1px solid #bbb8b2 ;
 	width: 100%;
-	/*padding: 1em;*/
+	height: 59px;
 	padding: 10px 12px 15px 12px;
 	overflow: hidden;
 	background-color: rgba(247, 236, 219,0.8)!important;
