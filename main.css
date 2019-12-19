@@ -293,11 +293,11 @@ Featured work
 }
 /* Position the "next button" to the right */
 .next {
-  right: 0;
+  right: -3px;
   border-radius: 3px 0 0 3px;
 }
 .prev {
-	left:0;
+	left: -3px;
 }
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
