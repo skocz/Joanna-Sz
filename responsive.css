@@ -9,7 +9,7 @@
   display: none;
 }
 
-@media screen and (min-width:1501px) {
+/*@media screen and (min-width:1501px) {
 	body {
 		margin: 0 15%;
 		width: auto;
@@ -44,112 +44,9 @@
 	.go-to-top-Btn{ display: none; }
 }
 
-@media screen and (min-width: 801px) and (max-width: 1235px){
-	.header, .content { 
-	width: 80%;
-	margin: 0 auto;
-	}
-	.project:last-of-type {
-    margin-right: auto;
-	}
-	.banner { margin-bottom: 30px; }
-	.core-nav-items { padding-left: 0; }
-	.core-nav-item {
-	width: 107px;
-	}
-}
 
 
-@media screen and (min-width:800px) and (max-width: 1199px) {
-	.header, .content { 
-		width: 80%;
-		margin: 0 auto;
-	}
-	.core-nav-items { font-size: 23px; }
-	.header-joanna-sz { font-size: 32px; }
-	.banner { width: 80%; }
-	footer { margin-bottom: 10%; }
-/*	#mobileBtn {
-		display: none;
-	}*/
-}
-
-@media screen and (max-width:799px) {
-	.featured-work-name { text-align: center; }
-
-	.featured-work { justify-content: center; }
-	.core-nav-item {
-	width: 107px;
-	}
-	.core-nav-items {
-		padding-left: 0;
-	}
-	.header-joanna-sz { 
-	font-size: 27px; }
-/*	.go-to-top-Btn{
-		display: none;
-	}*/
-
-}
-
-/* @media screen and (max-width: 549px) { */
-/*	.header-joanna-sz {
-	height: 48px;
-    margin-right: 0.5em;
-	}*/
-	/*.top-image {
-		background-image: url(img/kate-trysh-486230-unsplash_small.jpg);
-	}
-	.content {margin-top: 0;}
-	header { margin-bottom: 0; }
-	.core-nav {
-	    z-index: 10;
-	    background-color: #381D2A;
-	    width: 300px;
-	    height: 250px;
-	    position: absolute;
-	    right: 0;
-	    bottom: 0;
-	     This trasform moves the drawer off canvas. */
-	/*    -webkit-transform: translate(-1000px, 0);
-	    transform: translate(-1000px, 0);*/
-	    /* Optionally, we animate the drawer. 
-	    transition: transform 0.3s ease;
-	 }
-	.open {
-	    -webkit-transform: translate(0, 0);
-	    transform: translate(0, 0);
-	}
-	 .core-nav-items {
-	    display: list-item;
-	    border-bottom: 1px solid #E0E0E0;
-	    width: 100%;
-	    text-align: left;
-	    margin-bottom: 20px;
-	    padding: 0;
-	    font-size: 18px;
-	}
-	.core-nav-item {
-		box-sizing: border-box;
-		display: inline-block;
-		width:100%;
-		text-align: center;
-		line-height: 24px;
-		padding: 24px;
-		text-transform: uppercase;
-	}
-	.header__menu {
-	    display: inline-block;
-	    position: absolute;
-	    left: 0;
-	    padding: 1em;
-	 }
-	 .header__menu svg {
-	    width: 32px;
-	    fill: #FBFCFF;
-	}
-} */
-
+*/
 
 
 
