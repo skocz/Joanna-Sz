@@ -74,7 +74,7 @@ header {
 .header-joanna-sz { 
 	font-size: 23px;
 	font-weight: 100;
-	left: 0;
+	/*left: 0;*/
 	position: absolute;
 	top: 22px;
 	z-index: 0;
@@ -88,14 +88,16 @@ header {
 	background-color: rgba(247, 236, 219,0.8)!important;
 	background-color: rgb(247, 236, 219);
 	display: flex;
+	flex-direction: row-reverse;
+	justify-content: flex-end;
    	width: 100%;
     	height: 80px;
 }
 
 .header-menu {
 	display: inline-block;
-	position: absolute;
-	right: 10px;
+	/*position: absolute;
+	right: 10px;*/
 	padding: 1em;
 	margin-top: 3px;
 	z-index: 12;
