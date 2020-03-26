@@ -46,10 +46,7 @@ figure, figcaption, footer, header, menu, nav, section {
 	  padding: 0;
 	  vertical-align: baseline;
 }
-.body-container {
-	margin:0 auto;
-	width:960px;
-}
+
 /*to make the website be fully grid responsive 
 by reseting the box model which by default doesnt include padding 
 and border within declered width and height.  */
