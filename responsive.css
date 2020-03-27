@@ -23,6 +23,12 @@
 	.portfolio-img {
 		max-width: 300px;
 	}
+	.next {
+		right: -28px;
+	}
+	.prev {
+		left: -28px;
+	}
 }
 /*@media screen and (min-width:1501px) {
 	body {
